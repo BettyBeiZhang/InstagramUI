@@ -1,32 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="app">
 <head>
     <meta charset="UTF-8">
   <title>Instragram web UI </title>
-     <script src="app/app.js"></script>
-    <script src="app/home/home.js"></script>
-    <!-- <script src="app/status/status.js"></script>
-    <script src="app/finish/finish.js"></script>
-    <script src="app/services/services.js"></script>
-    <script src="app/status/status.js"></script> -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic%7CLily+Script+One:regular" />
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style/style.css" />
 </head>
-<nav>
-   <h1>Hello there </h1>
-</nav>
 
-<body>
+<body >
   <div ng-view class="container"></div>
+  <script src="modules/angular/angular.js"></script>
+  <script src="modules/angular-route/angular-route.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="app/app.js"></script>
+ <script src="app/home/home.js"></script>
+ <script src="app/services/services.js"></script>
 
 
-<!-- <body ng-app="InstragramApp" ng-controller="AppController"> -->
-
-<!-- <div ng-include="'templates/header.html'"></div>
-
-<div ng-view id="wrapper"> -->
-
-<!-- </div> -->
 </body>
 </html>
