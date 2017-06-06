@@ -6,8 +6,8 @@ var moment = require('moment');
 var app = express();
 
 //app.use('/', express.static(path.join(__dirname, '../client/login')));
-app.use('/', express.static(path.join(__dirname, '../client')));
-app.use('/modules', express.static(path.join(__dirname, '../node_modules')));
+app.use('/', express.static(path.join(__dirname, './client')));
+app.use('/modules', express.static(path.join(__dirname, './node_modules')));
 
 
 app.post('/user', function(req, res) {
