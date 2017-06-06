@@ -4,8 +4,8 @@
   border-radius: 3px;
   margin-left: -1px;
   margin-right: -1px;
-
 }
+
 .userAvatar {
   border-radius: 50%;
   width: 60px;
@@ -13,22 +13,100 @@
   padding: 16px;
 }
 
-.username{
-    float: right;
-    left: -450px;
-    position: relative;
-
- }
-
-.posts {
-  width:100%;
+.main-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 40px;
 }
 
-.comments_user{
-    padding: 5px 10px 14px 3px;
-    font-weight: bold;
+.main-nav .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  max-width: 1010px;
+  padding: 26px 40px;
+  width: 100%;
+}
+
+.main-nav_logo {
+  flex: 1 0 0%;
+}
+
+.main-nav_search {
+  width: 215px;
+}
+
+.main-nav_icons {
+  flex: 1 0 0%;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+
+input, textarea {
+  border: solid 1px #dbdbdb;
+  border-radius: 3px;
+  color: #262626;
+  font-size: 14px;
+  outline: none;
+  padding: 3px 10px 3px 26px;
+  z-index: 2;
+}
+
+
+/*POST Styles*/
+article {
+  margin-bottom: 40px;
+}
+.likeIcon {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+
+.likeIcon .fa, .main-nav_icons .fa {
+  padding: 10px;
+}
+
+.likeIcon .fa-comment-o {
+  margin-top: -5px;
+}
+
+.comments {
+  padding: 10px;
+}
+
+.posts {
+  width: 100%;
+}
+
+.comment_user {
+  padding: 5px 10px 14px 3px;
+  font-weight: bold;
 }
 
 .numbers_likes {
   font-weight: bold;
+  padding: 5px 10px;
+}
+
+.add-comment {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+
+  padding: 10px;
+}
+
+.add-comment textarea {
+  flex: 1 0 0%;
 }

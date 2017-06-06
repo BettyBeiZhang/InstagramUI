@@ -22,7 +22,11 @@
           <i class="fa fa-comment-o fa-2x" aria-hidden="true"></i>
         </div>
        <div class="numbers_likes">{{post.likes}} likes</div>
-       <div class="comments" ng-repeat="comment in post.comments"><span class="comments_user">{{comment.userName}}</span>{{comment.message}}</div>
+       <div class="comment" ng-repeat="comment in post.comments">
+         <span class="comment_user">{{comment.userName}}</span>{{comment.message}}</div>
        <hr>
-       <input ng-keyup="$event.keyCode == 13 && addComment()" ng-model="newComment" placeholder="Add a Comment..."/>
+       <div class="add-comment">
+   <textarea ng-keyup="$event.keyCode == 13 && addComment()" ng-model="newComment" placeholder="Add a Comment..." />
+ </div>
+
     </article>

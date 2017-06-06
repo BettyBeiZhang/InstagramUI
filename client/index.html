@@ -8,8 +8,27 @@
     <link rel="stylesheet" href="style/style.css" />
 </head>
 
-<body >
+<body>
+  <nav class="main-nav">
+    <div class="container">
+      <div class="main-nav_logo">
+        <i class="fa fa-instagram fa-2x pull-left"></i>
+        <span class="instagram"> | instagram </span>
+      </div>
 
+      <div class="main-nav_search">
+        <input placeholder="Search" />
+      </div>
+
+      <div class="main-nav_icons text-right">
+        <i class="fa fa-compass fa-2x" aria-hidden="true"></i>
+        <i class="fa fa-heart-o fa-2x" aria-hidden="true"></i>
+        <i class="fa fa-user fa-2x" aria-hidden="true"></i>
+      </div>
+    </div>
+  </nav>
+
+  </div>
   <div ng-view class="container"></div>
   <script src="modules/angular/angular.js"></script>
   <script src="modules/angular-route/angular-route.js"></script>

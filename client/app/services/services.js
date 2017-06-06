@@ -13,7 +13,7 @@ angular.module('app.service', [])
     return {
       user: "Sarah",
 			location: "San Francisco",
-      img:"https://scontent.cdninstagram.com/t51.2885-15/e15/18644871_176797742850188_6856437975463493632_n.jpg",
+      img:"https://instagram.fsnc1-1.fna.fbcdn.net/t51.2885-15/e35/18723320_270490490089432_5846592779358044160_n.jpg",
       likes: 22,
       comments: [{
         userName:"priscila",
