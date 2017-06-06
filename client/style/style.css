@@ -17,9 +17,18 @@
     float: right;
     left: -450px;
     position: relative;
- 
+
  }
 
 .posts {
   width:100%;
+}
+
+.comments_user{
+    padding: 5px 10px 14px 3px;
+    font-weight: bold;
+}
+
+.numbers_likes {
+  font-weight: bold;
 }
