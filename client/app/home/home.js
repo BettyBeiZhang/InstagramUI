@@ -7,19 +7,21 @@ angular.module('app.home', [])
      $scope.currentUser= createFactory.getUser();
      $scope.newComment = "";
 
-  console.log($scope.currentUser)
     $scope.addComment = function () {
      //a new comment
      var comment = {
          userName: $scope.currentUser.user,
          message: $scope.newComment
      }
-
-     //push comment to comments array
      $scope.post.comments.push(comment);
 
      //clear textarea
      $scope.newComment = "";
 }
+
+ $scope.incrementLikes = function(){
+   $scope.post.likes += 1;
+ }
+
 
 });

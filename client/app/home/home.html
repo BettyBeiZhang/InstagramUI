@@ -18,8 +18,8 @@
           <img class="posts" ng-src="{{post.img}}" alt="">
         </div>
         <div class="likeIcon">
-          <a class="glyphicon glyphicon-heart-empty" href=""></a>
-          <a href=""><i class="fa fa-comment-o" aria-hidden="true"></i> </a>
+          <i class="fa fa-heart-o fa-2x" aria-hidden="true"  ng-click=incrementLikes()></i>
+          <i class="fa fa-comment-o fa-2x" aria-hidden="true"></i>
         </div>
        <div class="numbers_likes">{{post.likes}} likes</div>
        <div class="comments" ng-repeat="comment in post.comments"><span class="comments_user">{{comment.userName}}</span>{{comment.message}}</div>

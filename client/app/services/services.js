@@ -13,8 +13,6 @@ angular.module('app.service', [])
     return {
       user: "Sarah",
 			location: "San Francisco",
-			// i am not using this dataTime for right now.
-      dateTime:"7 days ago",
       img:"https://scontent.cdninstagram.com/t51.2885-15/e15/18644871_176797742850188_6856437975463493632_n.jpg",
       likes: 22,
       comments: [{
@@ -22,7 +20,7 @@ angular.module('app.service', [])
         message:"Nice posts!!!"
       },
       {
-        userName: "JoanneXin",
+        userName: "JoanneXi",
         message: "true :)"
       }
     ]
@@ -38,6 +36,6 @@ angular.module('app.service', [])
 	return {
 		add: add,
     getPost: getPost,
-		getUser: getUser 
+		getUser: getUser
 	};
 });
