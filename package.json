@@ -3,12 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
-    "url": "'https://github.com/bettybeizhang/instragramui.git"
+    "url": "https://github.com/bettybeizhang/instragramUI.git"
   },
   "author": "",
   "license": "ISC",
@@ -19,5 +16,10 @@
     "express": "^4.15.3",
     "moment": "^2.18.1",
     "path": "^0.12.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "prestart": "npm install",
   }
 }
